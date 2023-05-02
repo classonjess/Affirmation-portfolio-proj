@@ -9,11 +9,24 @@ heali[6] = "You deserve  information and you deserve moments of silence too.";
 heali[7] = "You have everything you need to succeed.";
 heali[8] = "Let go of things that sit achingly out of reach.";
 heali[9] = "Let go. It creates space for opportunities to come.";
+heali[10] = "You are enough.";
+heali[11] = "You are on the way to becoming the best version of yourself.";
+heali[12] = "You have the ability to reclaim your power!";
+heali[13] = "You are your own hero.";
+heali[14] = "You are not your anxiety. You are not what your fears try to tell you are.";
+heali[15] = "Promise to be kind to yourself because you deserve such kindness .";
+heali[16] = "Embrace the glorious mess that you are.";
+heali[17] = "The emotion that can break your heart is sometimes the very one that heals it.";
+heali[18] = "Everything passes if you learn to hold thing lightly.";
+heali[19] = "Hold your head up! You were not made for failure, YOU were made for victory.";
+heali[20] = "Your past is not a reflection of your future.";
+heali[21] = "Difficult times allow you to appreciate the good times.";
+
 
 function healing() {
  let healingAffirmations = Math.floor(Math.random() * (heali.length));
   document.getElementById('heal').innerHTML = heali[healingAffirmations];
-  setTimeout(clear, 3000);
+  setTimeout(clear, 5000);
   clearTimeout(setTimeout);
   star();
 }

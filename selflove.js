@@ -1,4 +1,5 @@
 
+
 const selflo = []
 selflo[0] = "Give yourself permission to-do what is right for you.";
 selflo[1] = "Allow yourself to be who you are without judgement.";
@@ -8,15 +9,18 @@ selflo[4] = "You are loved and worthy";
 selflo[5] = "You are more than what your circumstances dictate.";
 
 
-
 function self() {
- let selfAffirmations = Math.floor(Math.random() * (selflo.length));
-  document.getElementById('selfl').innerHTML = selflo[selfAffirmations];
-  
-  setTimeout(() => {
-    const text =document.getElementById('selfl');
-    text.style.display = 'none';
-  }, 3000)
-  
-};
+  let selfAffirmations = Math.floor(Math.random() * (selflo.length));
+   document.getElementById('selfl').innerHTML = selflo[selfAffirmations];
+   setTimeout(startTimer, 3000);
+   clearTimeout(setTimeout);
+   again();
+}
 
+function startTimer(){
+  document.getElementById('selfl').style.display ='none';
+}
+
+function again(){
+  document.getElementById('selfl').style.display ='inline';
+}

@@ -13,4 +13,15 @@ heali[9] = "Let go. It creates space for opportunities to come.";
 function healing() {
  let healingAffirmations = Math.floor(Math.random() * (heali.length));
   document.getElementById('heal').innerHTML = heali[healingAffirmations];
-};
+  setTimeout(clear, 3000);
+  clearTimeout(setTimeout);
+  star();
+}
+
+function clear(){
+document.getElementById('heal').style.display ='none';
+}
+
+function star(){
+document.getElementById('heal').style.display ='inline';
+}

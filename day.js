@@ -1,5 +1,3 @@
-const closeDayButton = document.querySelectorAll('[data-close-button]')
-
 const dayf = []
 dayf[0] = "Everyday you will be more mindful of all the small blessings that you should be thankful for.";
 dayf[1] = "Today free yourself from destructive fears and doubts.";
@@ -13,8 +11,17 @@ dayf[8] = "You are responsible for yourself and you start there."
 
 
 function day() {
- let dayAffirmations = Math.floor(Math.random() * 9);
+ let dayAffirmations = Math.floor(Math.random() * (dayf.length));
   document.getElementById('dayA').innerHTML = dayf[dayAffirmations];
+  setTimeout(start, 3000);
+  clearTimeout(setTimeout);
+  daytwo();
 }
 
+function start(){
+document.getElementById('dayA').style.display ='none';
+}
 
+function daytwo(){
+document.getElementById('dayA').style.display ='inline';
+}

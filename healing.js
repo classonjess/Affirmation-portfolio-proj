@@ -26,7 +26,7 @@ heali[21] = "Difficult times allow you to appreciate the good times.";
 function healing() {
  let healingAffirmations = Math.floor(Math.random() * (heali.length));
   document.getElementById('heal').innerHTML = heali[healingAffirmations];
-  setTimeout(clear, 5000);
+  setTimeout(clear, 6000);
   clearTimeout(setTimeout);
   star();
 }

@@ -27,7 +27,7 @@ h1 {
 
 p {
     text-align: center;
-    display:inline-block ;
+    display: block ;
     position: absolute;
     margin-top: 0.6rem;
     font-size: 0.12rem; 
@@ -64,7 +64,7 @@ p {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     background-color: rgb(215, 211, 207);
-    opacity: .8;
+    opacity: .7;
     margin:0;
     top: 45%;
     left: 50%;
@@ -181,12 +181,12 @@ p {
     h1 {
         font-size: 0.2rem;
         margin-top: 20px;
-      
     }
 
-     em{
+    p{
         margin-top: 0.35rem;
-        font-size: 15px;
+        font-size: 16px;
+       
     }
     #btn {
     width: 0.7rem;
@@ -222,3 +222,40 @@ p {
  }
 
 }
+
+/* mobile */
+@media only screen and (max-width: 600px){
+    h1{
+       font-size: 35px;
+    }
+    p {
+        font-size: 13px;
+        margin-top: 0.30rem;
+        display: flex;
+        margin-right: 30px;
+        margin-left:30px;
+        width: auto;
+    }
+    #btn{
+        width: 0.6rem;
+        font-size: 12px;
+    }
+    #btn1{
+        width: 0.6rem;
+        font-size: 12px;
+    }
+    #btn2{
+        width: 0.7rem;
+        font-size: 12px;
+    }
+    #dayA{
+        font-size: 9px;
+     }
+     #heal{
+        font-size: 9px;
+     }
+     #selfl{
+        font-size: 9px;
+     }
+}
+

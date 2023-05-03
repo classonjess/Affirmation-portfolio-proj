@@ -59,10 +59,10 @@ p {
     position: absolute;
     font-size: 26px;
     font-style: italic;
-    color: black;
+    color: rgb(74, 117, 143);
     font-family: 'Ysabeau';
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: rgb(74, 117, 143);
     background-color: rgb(215, 211, 207);
     opacity: .7;
     margin:0;
@@ -76,7 +76,6 @@ p {
 
 
 #btn:hover{
-    background-color: #879ba2;
     border: 3px solid black;
     box-shadow: 0px 0px;
   }
@@ -108,10 +107,10 @@ p {
     position:absolute;
     font-size: 24px;
     font-style: italic;
-    color: black;
+    color: rgb(74, 117, 143);
     font-family: 'Ysabeau';
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: rgb(74, 117, 143);
     background-color: rgb(215, 211, 207);
     opacity: .8;
     margin:0;
@@ -125,7 +124,6 @@ p {
 }
 
 #btn1:hover{
-    background-color: #879ba2;
     border: 3px solid black;
     box-shadow: 0px 0px;
   }
@@ -155,10 +153,10 @@ p {
     position: absolute;
     font-size: 24px;
     font-style: italic;
-    color: black;
+    color: rgb(74, 117, 143);
     font-family: 'Ysabeau';
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: rgb(74, 117, 143);
     background-color: rgb(215, 211, 207);
     opacity: .8;
     margin:0;
@@ -170,7 +168,6 @@ p {
 }
 
 #btn2:hover{
-    background-color: #879ba2;
     border: 3px solid black;
     box-shadow: 0px 0px;
   }
@@ -226,11 +223,11 @@ p {
 /* mobile */
 @media only screen and (max-width: 600px){
     h1{
-       font-size: 35px;
+       font-size: 37px;
     }
     p {
-        font-size: 13px;
-        margin-top: 0.30rem;
+        font-size: 15px;
+        margin-top: 0.31rem;
         display: flex;
         margin-right: 30px;
         margin-left:30px;
@@ -239,23 +236,29 @@ p {
     #btn{
         width: 0.6rem;
         font-size: 12px;
+        top: 40%;
     }
     #btn1{
-        width: 0.6rem;
+        width: 0.7rem;
         font-size: 12px;
+        top: 60%;
     }
     #btn2{
         width: 0.7rem;
         font-size: 12px;
+        top: 80%;
     }
     #dayA{
         font-size: 9px;
+        top: 50%;
      }
      #heal{
         font-size: 9px;
+        top: 70%;
      }
      #selfl{
         font-size: 9px;
+        top: 88%;
      }
 }
 

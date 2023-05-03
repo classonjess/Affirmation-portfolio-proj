@@ -59,7 +59,7 @@ p {
     position: absolute;
     font-size: 26px;
     font-style: italic;
-    color: rgb(214, 190, 71);
+    color: rgb(214, 190, 67);
     font-family: 'Ysabeau';
     margin:0;
     top: 45%;
@@ -214,7 +214,7 @@ p {
     }
     p {
         font-size: 15px;
-        margin-top: 0.40rem;
+        margin-top: 0.41rem;
         display: flex;
         margin-right: 30px;
         margin-left:30px;
@@ -223,31 +223,31 @@ p {
     #btn{
         width: 0.7rem;
         font-size: 12px;
-        top: 40%;
+        top: 45%;
     }
     #btn1{
         width: 0.7rem;
         font-size: 12px;
-        top: 60%;
+        top: 64%;
     }
     #btn2{
         width: 0.7rem;
         font-size: 12px;
-        top: 80%;
+        top: 85%;
     }
     #dayA{
         font-size: 12px;
-        top: 50%;
+        top: 55%;
         width: 1.3rem;
      }
      #heal{
         font-size: 12px;
-        top: 70%;
+        top: 75%;
         width: 1.3rem;
      }
      #selfl{
         font-size: 12px;
-        top: 88%;
+        top: 94%;
         width: 1.3rem;
      }
 }

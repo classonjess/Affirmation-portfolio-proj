@@ -59,7 +59,7 @@ p {
     position: absolute;
     font-size: 26px;
     font-style: italic;
-    color: rgb(209, 183, 53);
+    color: rgb(207, 178, 34);
     font-family: 'Ysabeau';
     margin:0;
     top: 45%;
@@ -213,8 +213,8 @@ p {
        font-size: 37px;
     }
     p {
-        font-size: 16px;
-        margin-top: 0.42rem;
+        font-size: 17px;
+        margin-top: 0.44rem;
         display: flex;
         margin-right: 30px;
         margin-left:30px;

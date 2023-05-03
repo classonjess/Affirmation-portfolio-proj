@@ -20,7 +20,7 @@ selflo[17] = "You can rise against any obstacle - any fear.";
 selflo[18] = "Be willing to take risks and step out of my comfort zone.";
 selflo[19] = "My self-worth is not contingent upon others’ opinions of me.";
 selflo[20] = "Your emotions are valid and warranted.";
-selflo[21] = "You am allowed to make my own decisions, even if others don’t agree with them.";
+selflo[21] = "You are allowed to make my own decisions, even if others don’t agree with them.";
 selflo[22] = "You are capable of creating the life I want.";
 
 function self() {

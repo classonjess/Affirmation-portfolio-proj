@@ -1,6 +1,6 @@
 const heali = []
-heali[0] = "You are understood and your perspective is important";
-heali[1] = "You're at peace and worthy.";
+heali[0] = "You are understood and your perspective is important.";
+heali[1] = "You are at peace and worthy.";
 heali[2] = "You are worthy of investing in yourself."
 heali[3] = "You are surround by love and support.";
 heali[4] = "Breath in healing and exhale the things that burden you.";
@@ -13,15 +13,15 @@ heali[10] = "You are enough.";
 heali[11] = "You are on the way to becoming the best version of yourself.";
 heali[12] = "You have the ability to reclaim your power!";
 heali[13] = "You are your own hero.";
-heali[14] = "You are not your anxiety. You are not what your fears try to tell you are.";
-heali[15] = "Promise to be kind to yourself because you deserve such kindness .";
+heali[14] = "You are not your anxiety. You are not what your fears try to tell you.";
+heali[15] = "Promise to be kind to yourself because you deserve that kindness.";
 heali[16] = "Embrace the glorious mess that you are.";
 heali[17] = "The emotion that can break your heart is sometimes the very one that heals it.";
-heali[18] = "Everything passes if you learn to hold thing lightly.";
+heali[18] = "Everything passes if you learn to hold things lightly.";
 heali[19] = "Hold your head up! You were not made for failure, YOU were made for victory.";
 heali[20] = "Your past is not a reflection of your future.";
 heali[21] = "Difficult times allow you to appreciate the good times.";
-
+heali[22] = "Each day that passes you heal more and more.";
 
 function healing() {
  let healingAffirmations = Math.floor(Math.random() * (heali.length));

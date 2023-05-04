@@ -213,12 +213,12 @@ p {
 /* mobile */
 @media only screen and (max-width: 600px){
     h1{
-       top: 4%;
+       top: 3%;
        font-size: 37px;
     }
     p {
-        font-size: 18px;
-        margin-top: 0.43rem;
+        font-size: 17px;
+        margin-top: 0.38rem;
         display: flex;
         margin-right: 29px;
         margin-left:29px;
@@ -227,32 +227,32 @@ p {
     #btn{
         width: 0.7rem;
         font-size: 12px;
-        top: 44%;
+        top: 46%;
     }
     #btn1{
         width: 0.7rem;
         font-size: 12px;
-        top: 64%;
+        top: 66%;
     }
     #btn2{
         width: 0.7rem;
         font-size: 12px;
-        top: 85%;
+        top: 86%;
     }
     #dayA{
         font-size: 12px;
-        top: 53%;
-        width: 1.3rem;
+        top: 55%;
+        width: 1.2rem;
      }
      #heal{
         font-size: 12px;
-        top: 74%;
-        width: 1.3rem;
+        top: 76%;
+        width: 1.2rem;
      }
      #selfl{
         font-size: 12px;
-        top: 94%;
-        width: 1.3rem;
+        top: 95%;
+        width: 1.2rem;
      }
 }
 

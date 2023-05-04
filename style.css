@@ -214,6 +214,7 @@ p {
 @media only screen and (max-width: 320px){
     body{
         background-size: 600px 432px;
+        background-attachment:fixed;
     }
     h1{
        top: 3%;
@@ -264,7 +265,8 @@ p {
 /* mobile */
 @media only screen and  (min-width: 375px) and (max-width: 600px){
     body{
-        background-size: 600px 460px;
+        background-size: 600px 470px;
+        background-position: fixed;
     }
     h1{
        top: 3%;

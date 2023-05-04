@@ -210,8 +210,59 @@ p {
 
 }
 
+/* s mobile */
+@media only screen and (max-width: 350px){
+    body{
+        background-size: 600px 432px;
+    }
+    h1{
+       top: 3%;
+       font-size: 37px;
+    }
+    p {
+        font-size: 17px;
+        margin-top: 0.36rem;
+        display: flex;
+        margin-right: 29px;
+        margin-left:29px;
+        width: auto;
+    }
+    #btn{
+        width: 0.7rem;
+        font-size: 12px;
+        top: 46%;
+    }
+    #btn1{
+        width: 0.7rem;
+        font-size: 12px;
+        top: 66%;
+    }
+    #btn2{
+        width: 0.7rem;
+        font-size: 12px;
+        top: 86%;
+    }
+    #dayA{
+        font-size: 12px;
+        top: 55%;
+        width: 1.2rem;
+     }
+     #heal{
+        font-size: 12px;
+        top: 76%;
+        width: 1.2rem;
+     }
+     #selfl{
+        font-size: 12px;
+        top: 94%;
+        width: 1.2rem;
+     }
+}
+
+
+
 /* mobile */
-@media only screen and (max-width: 600px){
+@media only screen and  (min-width: 375px) and (max-width: 600px){
     body{
         background-size: 600px 450px;
     }
@@ -259,9 +310,3 @@ p {
      }
 }
 
-/* s mobile */
-@media only screen and (max-width: 330px){
-    body{
-        background-size: 600px 438px;
-    }
-}

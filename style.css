@@ -260,7 +260,7 @@ p {
 }
 
 /* s mobile */
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 330px){
     body{
         background-size: 600px 438px;
     }

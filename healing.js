@@ -26,7 +26,7 @@ heali[22] = "Each day that passes you heal more and more.";
 function healing() {
  let healingAffirmations = Math.floor(Math.random() * (heali.length));
   document.getElementById('heal').innerHTML = heali[healingAffirmations];
-  setTimeout(clear, 6000);
+  setTimeout(clear, 10000);
   clearTimeout(setTimeout);
   star();
 }

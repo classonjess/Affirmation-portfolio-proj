@@ -21,12 +21,12 @@ selflo[18] = "Be willing to take risks and step out of my comfort zone.";
 selflo[19] = "My self-worth is not contingent upon others’ opinions of me.";
 selflo[20] = "Your emotions are valid and warranted.";
 selflo[21] = "You are allowed to make my own decisions, even if others don’t agree with them.";
-selflo[22] = "You are capable of creating the life I want.";
+selflo[22] = "You are capable of creating the life you want.";
 
 function self() {
   let selfAffirmations = Math.floor(Math.random() * (selflo.length));
    document.getElementById('selfl').innerHTML = selflo[selfAffirmations];
-   setTimeout(startTimer, 6000);
+   setTimeout(startTimer, 10000);
    clearTimeout(setTimeout);
    again();
 }

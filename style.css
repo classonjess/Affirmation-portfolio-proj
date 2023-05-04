@@ -212,6 +212,9 @@ p {
 
 /* mobile */
 @media only screen and (max-width: 600px){
+    body{
+        background-size: 600px 429px;
+    }
     h1{
        top: 3%;
        font-size: 37px;
@@ -251,7 +254,7 @@ p {
      }
      #selfl{
         font-size: 12px;
-        top: 95%;
+        top: 94%;
         width: 1.2rem;
      }
 }

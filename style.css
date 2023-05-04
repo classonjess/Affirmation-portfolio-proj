@@ -213,7 +213,7 @@ p {
 /* mobile */
 @media only screen and (max-width: 600px){
     body{
-        background-size: 600px 429px;
+        background-size: 600px 450px;
     }
     h1{
        top: 3%;
@@ -221,7 +221,7 @@ p {
     }
     p {
         font-size: 17px;
-        margin-top: 0.38rem;
+        margin-top: 0.36rem;
         display: flex;
         margin-right: 29px;
         margin-left:29px;
@@ -259,3 +259,9 @@ p {
      }
 }
 
+/* s mobile */
+@media only screen and (max-width: 400px){
+    body{
+        background-size: 600px 438px;
+    }
+}

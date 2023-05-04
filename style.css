@@ -1,10 +1,11 @@
 *{
     width: 100%;
-    background-attachment: fixed;
+    
 }
 
 html{
     font-size: 16rem;
+    
 }
 
 body{
@@ -35,7 +36,6 @@ p {
     margin-left: 15px;
     margin-right: 15px;
     width: 100%;
-
 }
 
 #btn{
@@ -215,7 +215,7 @@ p {
 @media only screen and (max-width: 320px){
     body{
         background-size: 500px 438px;
-        background-attachment:fixed;
+       background-position: fixed, scroll;
     }
     h1{
        top: 3%;
@@ -266,7 +266,7 @@ p {
 /* mobile */
 @media only screen and  (min-width: 375px) and (max-width: 600px){
     body{
-        background-size: 600px 490px;
+        background-size: 100% 485px;
         background-attachment: fixed;
     }
     h1{
@@ -284,31 +284,31 @@ p {
     #btn{
         width: 0.7rem;
         font-size: 12px;
-        top: 46%;
+        top: 44%;
     }
     #btn1{
         width: 0.7rem;
         font-size: 12px;
-        top: 66%;
+        top: 64%;
     }
     #btn2{
         width: 0.7rem;
         font-size: 12px;
-        top: 86%;
+        top: 84%;
     }
     #dayA{
         font-size: 12px;
-        top: 55%;
+        top: 53%;
         width: 1.2rem;
      }
      #heal{
         font-size: 12px;
-        top: 76%;
+        top: 74%;
         width: 1.2rem;
      }
      #selfl{
         font-size: 12px;
-        top: 94%;
+        top: 92%;
         width: 1.2rem;
      }
 }

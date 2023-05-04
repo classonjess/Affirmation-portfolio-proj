@@ -262,9 +262,9 @@ p {
 
 
 /* mobile */
-@media only screen and  (min-width: 425px) and (max-width: 600px){
+@media only screen and  (min-width: 375px) and (max-width: 600px){
     body{
-        background-size: 600px 455px;
+        background-size: 600px 460px;
     }
     h1{
        top: 3%;

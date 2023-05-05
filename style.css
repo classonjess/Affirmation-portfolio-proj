@@ -169,9 +169,9 @@ p {
 
 
 /* s mobile */
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 360px){
     body{
-        background-size: 500px 420px;
+        background-size: 500px 438px;
     
     }
     h1{

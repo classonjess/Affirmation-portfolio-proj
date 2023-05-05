@@ -167,9 +167,8 @@ p {
   }
 
 
-
 /* s mobile */
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 320px){
     body{
         background-size: 500px 438px;
     
@@ -219,9 +218,8 @@ p {
 }
 
 
-
 /* mobile (min-width: 375px) and */
-@media only screen and  (min-width: 375px)and (max-width: 600){
+@media only screen and  (min-width: 375px){
     body{
         background-size: 500px 440px;
     }

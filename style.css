@@ -64,7 +64,7 @@ p {
     position: fixed;
     font-size: 26px;
     font-style: italic;
-    color: rgb(205, 172, 7);
+    color: black;
     font-family: 'Ysabeau';
     margin:0;
     top: 45%;
@@ -72,8 +72,7 @@ p {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: auto;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(205, 172, 7);
+    text-shadow: 1px 0px 2px rgb(205, 172, 7);
   }
 
 
@@ -110,7 +109,8 @@ p {
     position:fixed;
     font-size: 24px;
     font-style: italic;
-    color: rgb(203, 172, 18);
+    color: black;
+    text-shadow: 1px 0px 2px rgb(205, 172, 7);
     font-family: 'Ysabeau';
     margin:0;
     top: 65%;
@@ -150,7 +150,8 @@ p {
     position: fixed;
     font-size: 24px;
     font-style: italic;
-    color: rgb(203, 172, 18);
+    color: black;
+    text-shadow: 1px 0px 2px rgb(205, 172, 7);
     font-family: 'Ysabeau';
     margin:0;
     top: 85%;
@@ -350,16 +351,16 @@ p {
     #dayA{
         font-size: 12.5px;
         top: 53%;
-        width: 1.2rem;
+        width: 1.4rem;
      }
      #heal{
         font-size: 12.5px;
         top: 74%;
-        width: 1.2rem;
+        width: 1.4rem;
      }
      #selfl{
         font-size: 12.5px;
         top: 92%;
-        width: 1.2rem;
+        width: 1.4rem;
      }
 }

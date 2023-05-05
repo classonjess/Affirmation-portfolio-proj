@@ -169,7 +169,7 @@ p {
 
 
 /* s mobile */
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 365px){
     body{
         background-size: 500px 410px;
     
@@ -318,7 +318,7 @@ p {
 }
 
 /* Laptop */
-@media only screen and (min-width: 760px) and (max-width: 1366px) {
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
     h1 {
         font-size: 0.2rem;
         margin-top: 20px;

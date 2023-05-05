@@ -219,9 +219,9 @@ p {
 
 
 /* mobile (min-width: 375px) and */
-@media only screen and  (min-width: 375px){
+@media only screen and  (min-width: 361px){
     body{
-        background-size: 500px 440px;
+        background-size: 500px 490px;
     }
     h1{
        top: 3%;

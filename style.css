@@ -169,7 +169,7 @@ p {
 
 
 /* s mobile */
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 320px){
     body{
         background-size: 500px 420px;
     
@@ -221,7 +221,7 @@ p {
 
 
 /* mobile (min-width: 375px) and */
-@media only screen and  (min-width: 390px){
+@media only screen and  (min-width: 375px){
     body{
         background-size: 500px 440px;
     }

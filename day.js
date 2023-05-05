@@ -20,7 +20,7 @@ dayf[17] = "We must accept finite disappointment, but never lose infinite hope."
 dayf[18] = "Your life is already a miracle of chances waiting for you to shape its destiny."
 dayf[19] = "If you think small, your world will be small. If you think big, your world will be big."
 dayf[20] = "Failure is just another way to learn how to do something right."
-dayf[21] = "You are the sum of you commitments."
+dayf[21] = "You are the sum of your commitments."
 
 
 function day() {

@@ -64,7 +64,7 @@ p {
     position: fixed;
     font-size: 26px;
     font-style: italic;
-    color: rgb(224, 190, 20);
+    color: rgb(205, 172, 7);
     font-family: 'Ysabeau';
     margin:0;
     top: 45%;
@@ -72,6 +72,8 @@ p {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: auto;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(205, 172, 7);
   }
 
 
@@ -148,7 +150,7 @@ p {
     position: fixed;
     font-size: 24px;
     font-style: italic;
-    color: rgb(214, 190, 71);
+    color: rgb(203, 172, 18);
     font-family: 'Ysabeau';
     margin:0;
     top: 85%;
@@ -326,8 +328,8 @@ p {
         font-size: 17px;
         margin-top: 0.36rem;
         display: flex;
-        margin-right: 29px;
-        margin-left:29px;
+        margin-right: 10px;
+        margin-left:10px;
         width: auto;
     }
     #btn{
@@ -346,17 +348,17 @@ p {
         top: 84%;
     }
     #dayA{
-        font-size: 12px;
+        font-size: 12.5px;
         top: 53%;
         width: 1.2rem;
      }
      #heal{
-        font-size: 12px;
+        font-size: 12.5px;
         top: 74%;
         width: 1.2rem;
      }
      #selfl{
-        font-size: 12px;
+        font-size: 12.5px;
         top: 92%;
         width: 1.2rem;
      }

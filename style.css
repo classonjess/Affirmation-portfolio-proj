@@ -269,9 +269,9 @@ p {
      }
 }
 /*Iphone 13 pro max */
-@media only screen and  (min-width: 428px) and (max-height:927px){
+@media only screen and  (min-width: 390px) and (max-height:927px){
     body{
-        background-size: 500px 650px;
+        background-size: 500px 438px;
     }
     h1{
        top: 3%;

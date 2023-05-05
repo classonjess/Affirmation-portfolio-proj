@@ -169,9 +169,9 @@ p {
 
 
 /* s mobile */
-@media only screen and (max-width: 365px){
+@media only screen and (max-width: 375px){
     body{
-        background-size: 500px 387px;
+        background-size: 500px 420px;
     
     }
     h1{
@@ -221,9 +221,9 @@ p {
 
 
 /* mobile (min-width: 375px) and */
-@media only screen and  (min-width: 375px) and (max-height:844px){
+@media only screen and  (min-width: 390px){
     body{
-        background-size: 500px 660px;
+        background-size: 500px 440px;
     }
     h1{
        top: 3%;
@@ -271,7 +271,7 @@ p {
 /*Iphone 13 pro max */
 @media only screen and  (min-width: 428px) and (max-height:927px){
     body{
-        background-size: 500px 750px;
+        background-size: 500px 650px;
     }
     h1{
        top: 3%;

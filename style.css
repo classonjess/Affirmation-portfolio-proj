@@ -214,7 +214,7 @@ p {
 /* s mobile */
 @media only screen and (max-width: 320px){
     body{
-        background-size: 500px 438px;
+        background-size: 500px 100px;
        background-position: fixed, scroll;
     }
     h1{
@@ -263,8 +263,8 @@ p {
 
 
 
-/* mobile */
-@media only screen and  (min-width: 375px) and (max-width: 600px){
+/* mobile (min-width: 375px) and */
+@media only screen and  (max-width: 375px) and (max-height:844px){
     body{
         background-size: 100% 485px;
         background-attachment: fixed;
@@ -313,3 +313,51 @@ p {
      }
 }
 
+@media only screen and (max-width: 428px) and (max-height: 926px) { 
+    body{
+        background-size: 100% 485px;
+        background-attachment: fixed;
+    }
+    h1{
+       top: 3%;
+       font-size: 37px;
+    }
+    p {
+        font-size: 17px;
+        margin-top: 0.36rem;
+        display: flex;
+        margin-right: 29px;
+        margin-left:29px;
+        width: auto;
+    }
+    #btn{
+        width: 0.7rem;
+        font-size: 12px;
+        top: 44%;
+    }
+    #btn1{
+        width: 0.7rem;
+        font-size: 12px;
+        top: 64%;
+    }
+    #btn2{
+        width: 0.7rem;
+        font-size: 12px;
+        top: 84%;
+    }
+    #dayA{
+        font-size: 12px;
+        top: 53%;
+        width: 1.2rem;
+     }
+     #heal{
+        font-size: 12px;
+        top: 74%;
+        width: 1.2rem;
+     }
+     #selfl{
+        font-size: 12px;
+        top: 92%;
+        width: 1.2rem;
+     }
+}

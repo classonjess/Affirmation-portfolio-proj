@@ -171,7 +171,7 @@ p {
 /* s mobile */
 @media only screen and (max-width: 365px){
     body{
-        background-size: 500px 410px;
+        background-size: 500px 387px;
     
     }
     h1{
@@ -179,11 +179,11 @@ p {
        font-size: 37px;
     }
     p {
-        font-size: 17px;
+        font-size: 16px;
         margin-top: 0.36rem;
         display: flex;
-        margin-right: 29px;
-        margin-left:29px;
+        margin-right: 27px;
+        margin-left:27px;
         width: auto;
     }
     #btn{
@@ -221,7 +221,7 @@ p {
 
 
 /* mobile (min-width: 375px) and */
-@media only screen and  (min-width: 375px) and (max-height:600px){
+@media only screen and  (min-width: 375px) and (max-height:603px){
     body{
         background-size: 500px 420px;
     }
@@ -269,53 +269,7 @@ p {
      }
 }
 
-@media only screen and  (min-width: 425px) and (max-height:600px){
-    body{
-        background-size: 500px 420px;
-    }
-    h1{
-       top: 3%;
-       font-size: 37px;
-    }
-    p {
-        font-size: 17px;
-        margin-top: 0.36rem;
-        display: flex;
-        margin-right: 29px;
-        margin-left:29px;
-        width: auto;
-    }
-    #btn{
-        width: 0.7rem;
-        font-size: 12px;
-        top: 44%;
-    }
-    #btn1{
-        width: 0.7rem;
-        font-size: 12px;
-        top: 64%;
-    }
-    #btn2{
-        width: 0.7rem;
-        font-size: 12px;
-        top: 84%;
-    }
-    #dayA{
-        font-size: 12px;
-        top: 53%;
-        width: 1.2rem;
-     }
-     #heal{
-        font-size: 12px;
-        top: 74%;
-        width: 1.2rem;
-     }
-     #selfl{
-        font-size: 12px;
-        top: 92%;
-        width: 1.2rem;
-     }
-}
+
 
 /* Laptop */
 @media only screen and (min-width: 760px) and (max-width: 1024px) {

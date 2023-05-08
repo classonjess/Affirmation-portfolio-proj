@@ -61,8 +61,8 @@ p {
     position: fixed;
     font-size: 26px;
     font-style: italic;
-    color: rgb(29, 102, 80);
-    text-shadow: 1px 2px 3px rgb(42, 129, 143);
+    color: rgb(23, 116, 88);
+    text-shadow: 1px 2px 3px rgb(8, 130, 149);
     font-family: 'Ysabeau';
     margin:0;
     top: 45%;
@@ -315,7 +315,7 @@ p {
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     h1 {
         font-size: 0.2rem;
-        margin-top: 20px;
+        margin-top: 15px;
     }
     body{
         background-size: 2000px 680px;
@@ -333,34 +333,34 @@ p {
     #btn {
        width: 0.8rem;
        font-size: 17px;
-       top: 38%;
+       top: 35%;
    }
 
    #btn1 {
       width: 0.8rem;
       font-size: 17px;
-      top: 60%;
+      top: 57%;
  }
 
    #btn2 {
       width: 0.85rem;
       font-size: 17px;
-      top: 82%;
+      top: 79%;
  }
 
    #dayA{
     font-size: 14px;
-    top: 49%;
+    top: 46%;
  }
 
    #heal{
     font-size: 14px;
-    top: 71%;
+    top: 68%;
  }
 
    #selfl{
     font-size: 14px;
-    top: 92%;
+    top: 89%;
  }
 }
 

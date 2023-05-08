@@ -167,7 +167,7 @@ p {
 /* s mobile */
 @media only screen and (max-width: 320px){
     body{
-        background-size: 500px 490px;
+        background-size: 500px 475px;
     
     }
     h1{

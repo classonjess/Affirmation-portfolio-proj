@@ -26,7 +26,7 @@ dayf[21] = "You are the sum of your commitments."
 function day() {
  let dayAffirmations = Math.floor(Math.random() * (dayf.length));
   document.getElementById('dayA').innerHTML = dayf[dayAffirmations];
-  setTimeout(start,10000);
+  setTimeout(start,6000);
   clearTimeout(setTimeout);
   daytwo();
 }

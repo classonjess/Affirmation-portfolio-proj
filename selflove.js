@@ -26,7 +26,7 @@ selflo[22] = "You are capable of creating the life you want.";
 function self() {
   let selfAffirmations = Math.floor(Math.random() * (selflo.length));
    document.getElementById('selfl').innerHTML = selflo[selfAffirmations];
-   setTimeout(startTimer, 10000);
+   setTimeout(startTimer, 6000);
    clearTimeout(setTimeout);
    again();
 }

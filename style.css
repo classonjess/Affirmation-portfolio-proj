@@ -64,7 +64,6 @@ p {
     color: rgb(38, 115, 92);
     text-shadow: 1px 2px 3px rgb(42, 129, 143);
     background-color: aliceblue;
-    padding: 1px 1px 1px 1px;
     font-family: 'Ysabeau';
     margin:0;
     top: 45%;
@@ -111,7 +110,6 @@ p {
     color: rgb(38, 115, 92);
     text-shadow: 1px 2px 3px rgb(42, 129, 143);
     background-color: aliceblue;
-    padding: 1px 1px 1px 1px;
     z-index:0;
     opacity:0.8;
     font-family: 'Ysabeau';
@@ -157,7 +155,6 @@ p {
     color: rgb(38, 115, 92);
     text-shadow: 1px 2px 3px rgb(42, 129, 143);
     background-color: aliceblue;
-    padding: 1px 1px 1px 1px;
     z-index:0;
     opacity:0.7;
     font-family: 'Ysabeau';

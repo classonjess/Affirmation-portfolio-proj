@@ -57,13 +57,14 @@ p {
 
 #dayA{
     text-align: center;
-    display: block;
+    display: inline-flex;
     position: fixed;
     font-size: 26px;
     font-style: italic;
     color: rgb(38, 115, 92);
     text-shadow: 1px 2px 3px rgb(42, 129, 143);
     background-color: aliceblue;
+    padding: 1px 1px 1px 1px;
     font-family: 'Ysabeau';
     margin:0;
     top: 45%;
@@ -103,13 +104,14 @@ p {
 
 #heal{
     text-align: center;
-    display: block;
+    display: inline-flex;
     position:fixed;
     font-size: 24px;
     font-style: italic;
     color: rgb(38, 115, 92);
     text-shadow: 1px 2px 3px rgb(42, 129, 143);
     background-color: aliceblue;
+    padding: 1px 1px 1px 1px;
     z-index:0;
     opacity:0.8;
     font-family: 'Ysabeau';
@@ -148,12 +150,14 @@ p {
 
 #selfl{
     text-align: center;
+    display: inline-flex;
     position: fixed;
     font-size: 24px;
     font-style: italic;
     color: rgb(38, 115, 92);
     text-shadow: 1px 2px 3px rgb(42, 129, 143);
     background-color: aliceblue;
+    padding: 1px 1px 1px 1px;
     z-index:0;
     opacity:0.7;
     font-family: 'Ysabeau';
@@ -257,17 +261,17 @@ p {
     #dayA{
         font-size: 13px;
         top: 53%;
-        width: 1.2rem;
+        width: auto;
      }
      #heal{
         font-size: 13px;
         top: 74%;
-        width: 1.2rem;
+        width: auto;
      }
      #selfl{
         font-size: 13px;
         top: 92%;
-        width: 1.2rem;
+        width: auto;
      }
 }
 /*Iphone 13 pro */
@@ -322,7 +326,7 @@ p {
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     h1 {
         font-size: 0.2rem;
-        margin-top: 13px;
+        margin-top: 11px;
     }
     body{
         background-size: 2000px 675px;
@@ -333,7 +337,7 @@ p {
         margin-top: 0.40rem;
         margin-left: 6px;
         margin-right: 6px;
-        font-size: 16px;
+        font-size: 17px;
         width: 100%;
        
     }

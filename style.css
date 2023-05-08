@@ -155,7 +155,7 @@ p {
     text-shadow: 1px 2px 3px rgb(42, 129, 143);
     background-color: aliceblue;
     z-index:0;
-    opacity:0.8;
+    opacity:0.7;
     font-family: 'Ysabeau';
     margin:0;
     top: 85%;
@@ -322,10 +322,10 @@ p {
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     h1 {
         font-size: 0.2rem;
-        margin-top: 15px;
+        margin-top: 13px;
     }
     body{
-        background-size: 2000px 680px;
+        background-size: 2000px 675px;
        
     }
 

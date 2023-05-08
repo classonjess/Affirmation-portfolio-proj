@@ -266,7 +266,7 @@ p {
 /*Iphone 13 pro max */
 @media only screen and  (min-width: 390px) and (max-device-height:927px){
     body{
-        background-size: 1000px 510px;
+        background-size: 1000px 500px;
     }
     h1{
        top: 3%;

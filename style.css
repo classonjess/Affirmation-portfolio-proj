@@ -61,8 +61,8 @@ p {
     position: fixed;
     font-size: 26px;
     font-style: italic;
-    color: rgb(5, 154, 109);
-    text-shadow: 1px 2px 3px rgb(5, 154, 109);
+    color: rgb(29, 102, 80);
+    text-shadow: 1px 2px 3px rgb(42, 129, 143);
     font-family: 'Ysabeau';
     margin:0;
     top: 45%;
@@ -106,8 +106,8 @@ p {
     position:fixed;
     font-size: 24px;
     font-style: italic;
-    color: rgb(27, 189, 140);
-    text-shadow: 1px 0px 3px rgb(27, 189, 140);
+    color: rgb(38, 115, 92);
+    text-shadow: 1px 2px 3px rgb(42, 129, 143);
     font-family: 'Ysabeau';
     margin:0;
     top: 65%;
@@ -147,8 +147,8 @@ p {
     position: fixed;
     font-size: 24px;
     font-style: italic;
-    color: rgb(27, 189, 140);
-    text-shadow: 1px 0px 3px rgb(27, 189, 140);
+    color: rgb(38, 115, 92);
+    text-shadow: 1px 2px 3px rgb(42, 129, 143);
     font-family: 'Ysabeau';
     margin:0;
     top: 85%;
@@ -283,31 +283,31 @@ p {
     #btn{
         width: 0.7rem;
         font-size: 12px;
-        top: 44%;
+        top: 42%;
     }
     #btn1{
         width: 0.7rem;
         font-size: 12px;
-        top: 64%;
+        top: 62%;
     }
     #btn2{
         width: 0.7rem;
         font-size: 12px;
-        top: 84%;
+        top: 82%;
     }
     #dayA{
         font-size: 12px;
-        top: 53%;
+        top: 51%;
         width: 1.2rem;
      }
      #heal{
         font-size: 12px;
-        top: 74%;
+        top: 72%;
         width: 1.2rem;
      }
      #selfl{
         font-size: 12px;
-        top: 92%;
+        top: 90%;
         width: 1.2rem;
      }
 }
@@ -318,7 +318,7 @@ p {
         margin-top: 20px;
     }
     body{
-        background-size: 2000px 530px;
+        background-size: 2000px 550px;
     }
 
     p{

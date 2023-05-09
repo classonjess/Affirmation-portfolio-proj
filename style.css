@@ -375,6 +375,59 @@ p {
  }
 }
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    h1 {
+        font-size: 0.2rem;
+        margin-top: 11px;
+    }
+    body{
+        background-size: 2000px 765px;
+       
+    }
 
+    p{
+        margin-top: 0.40rem;
+        margin-left: 6px;
+        margin-right: 6px;
+        font-size: 17px;
+        width: 100%;
+       
+    }
+    #btn {
+       width: 0.8rem;
+       font-size: 17px;
+       top: 35%;
+   }
+
+   #btn1 {
+      width: 0.8rem;
+      font-size: 17px;
+      top: 57%;
+ }
+
+   #btn2 {
+      width: 0.85rem;
+      font-size: 17px;
+      top: 79%;
+ }
+
+   #dayA{
+    font-size: 15px;
+    top: 46%;
+ }
+
+   #heal{
+    font-size: 15px;
+    top: 68%;
+ }
+
+   #selfl{
+    font-size: 15px;
+    top: 89%;
+ }
+}
+    
+  }
 
 

@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
-    background-size: 3400px 1000px;
+    background-size: 3400px 750px;
 }
 
 
@@ -324,14 +324,14 @@ p {
 }
 
 /* Tablet */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 898px) {
   
     h1 {
         font-size: 0.2rem;
         margin-top: 11px;
     }
     body{
-        background-size: 2000px 800px;
+        background-size: 2000px 900px;
        
     }
 
@@ -378,7 +378,7 @@ p {
 }
     
 /* Laptop */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 899px) and (max-width: 1024px) {
     h1 {
         font-size: 0.2rem;
         margin-top: 11px;

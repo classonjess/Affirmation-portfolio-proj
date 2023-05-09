@@ -329,7 +329,7 @@ p {
         margin-top: 11px;
     }
     body{
-        background-size: 2000px 675px;
+        background-size: 2000px 760px;
        
     }
 
@@ -375,14 +375,14 @@ p {
  }
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   
     h1 {
         font-size: 0.2rem;
         margin-top: 11px;
     }
     body{
-        background-size: 2000px 765px;
+        background-size: 2000px 750px;
        
     }
 
@@ -428,6 +428,5 @@ p {
  }
 }
     
-  }
 
 

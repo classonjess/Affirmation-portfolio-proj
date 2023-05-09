@@ -65,6 +65,7 @@ p {
     text-shadow: 1px 2px 3px rgb(42, 129, 143);
     background-color: aliceblue;
     font-family: 'Ysabeau';
+    border-radius: 4%;
     margin:0;
     top: 45%;
     left: 50%;
@@ -110,6 +111,7 @@ p {
     color: rgb(38, 115, 92);
     text-shadow: 1px 2px 3px rgb(42, 129, 143);
     background-color: aliceblue;
+    border-radius: 4%;
     z-index:0;
     opacity:0.8;
     font-family: 'Ysabeau';
@@ -155,6 +157,7 @@ p {
     color: rgb(38, 115, 92);
     text-shadow: 1px 2px 3px rgb(42, 129, 143);
     background-color: aliceblue;
+    border-radius: 4%;
     z-index:0;
     opacity:0.7;
     font-family: 'Ysabeau';
@@ -208,7 +211,7 @@ p {
     #dayA{
         font-size: 13px;
         top: 53%;
-        width: 1.2rem;
+        width: auto;
      }
      #heal{
         font-size: 13px;
@@ -217,7 +220,7 @@ p {
      }
      #selfl{
         font-size: 13px;
-        top: 92%;
+        top: 93%;
         width: 1.2rem;
      }
 }
@@ -256,18 +259,18 @@ p {
         top: 84%;
     }
     #dayA{
-        font-size: 13px;
+        font-size: 12px;
         top: 53%;
         width: auto;
      }
      #heal{
-        font-size: 13px;
+        font-size: 12px;
         top: 74%;
         width: auto;
      }
      #selfl{
-        font-size: 13px;
-        top: 92%;
+        font-size: 12px;
+        top: 93%;
         width: auto;
      }
 }
@@ -305,7 +308,7 @@ p {
     }
     #dayA{
         font-size: 12px;
-        top: 51%;
+        top: 52%;
         width: 1.2rem;
      }
      #heal{
@@ -315,7 +318,7 @@ p {
      }
      #selfl{
         font-size: 12px;
-        top: 90%;
+        top: 91%;
         width: 1.2rem;
      }
 }

@@ -431,14 +431,14 @@ p {
  }
 }
 
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1201px) and (max-width: 1440px) {
   
     h1 {
         font-size: 0.2rem;
         margin-top: 11px;
     }
     body{
-        background-size: 2000px 750px;
+        background-size: 2000px 550px;
        
     }
 

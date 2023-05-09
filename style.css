@@ -322,6 +322,60 @@ p {
         width: 1.2rem;
      }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    h1 {
+        font-size: 0.2rem;
+        margin-top: 11px;
+    }
+    body{
+        background-size: 2000px 5px;
+       
+    }
+
+    p{
+        margin-top: 0.40rem;
+        margin-left: 6px;
+        margin-right: 6px;
+        font-size: 17px;
+        width: 100%;
+       
+    }
+    #btn {
+       width: 0.8rem;
+       font-size: 17px;
+       top: 35%;
+   }
+
+   #btn1 {
+      width: 0.8rem;
+      font-size: 17px;
+      top: 57%;
+ }
+
+   #btn2 {
+      width: 0.85rem;
+      font-size: 17px;
+      top: 79%;
+ }
+
+   #dayA{
+    font-size: 15px;
+    top: 46%;
+ }
+
+   #heal{
+    font-size: 15px;
+    top: 68%;
+ }
+
+   #selfl{
+    font-size: 15px;
+    top: 89%;
+ }
+}
+    
 /* Laptop */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     h1 {

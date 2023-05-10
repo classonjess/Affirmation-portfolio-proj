@@ -288,7 +288,7 @@ p {
     }
     p {
         font-size: 17px;
-        margin-top: 0.36rem;
+        margin-top: 0.40rem;
         display: flex;
         margin-right: 29px;
         margin-left:29px;
@@ -328,7 +328,7 @@ p {
 /* Laptop */
 @media only screen and (min-width: 768px) and (max-device-width: 1440px) {
     h1 {
-        font-size: 0.2rem;
+        font-size: 0.3rem;
         margin-top: 20px;
     }
     body{
@@ -336,10 +336,10 @@ p {
     }
 
     p{
-        margin-top: 0.49rem;
+        margin-top: 0.50rem;
         margin-left: 6px;
         margin-right: 6px;
-        font-size: 21px;
+        font-size: 22px;
         width: 100%;
        
     }

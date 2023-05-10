@@ -242,7 +242,7 @@ p {
     }
     p {
         font-size: 17px;
-        margin-top: 0.36rem;
+        margin-top: 0.38rem;
         display: flex;
         margin-right: 29px;
         margin-left:29px;
@@ -377,4 +377,56 @@ p {
     font-size: 14px;
     top: 92%;
  }
+}
+
+@media only screen and (min-width: 1445px) and (max-device-width: 3560px) {
+    h1 {
+        font-size: 0.4rem;
+        margin-top: 30px;
+    }
+    body{
+        background-size: 3000px 1100px;
+    }
+
+    p{
+        margin-top: 0.75rem;
+        margin-left: 6px;
+        margin-right: 6px;
+        font-size:30px;
+        width: 100%;
+       
+    }
+    #btn {
+       width: 1rem;
+       font-size: 20px;
+       top: 34%;
+   }
+
+   #btn1 {
+      width: 1rem;
+      font-size: 20px;
+      top: 56%;
+ }
+
+   #btn2 {
+      width: 1rem;
+      font-size: 20px;
+      top: 79%;
+ }
+
+   #dayA{
+    font-size: 25px;
+    top: 45%;
+ }
+
+   #heal{
+    font-size: 25px;
+    top: 68%;
+ }
+
+   #selfl{
+    font-size: 25px;
+    top: 88%;
+ }
+
 }

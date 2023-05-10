@@ -190,7 +190,7 @@ p {
     }
     p {
         font-size: 16px;
-        margin-top: 0.36rem;
+        margin-top: 0.39rem;
         display: flex;
         margin-right: 27px;
         margin-left:27px;
@@ -336,10 +336,10 @@ p {
     }
 
     p{
-        margin-top: 0.46rem;
+        margin-top: 0.49rem;
         margin-left: 6px;
         margin-right: 6px;
-        font-size: 18px;
+        font-size: 21px;
         width: 100%;
        
     }

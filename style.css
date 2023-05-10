@@ -283,12 +283,12 @@ p {
         background-size: 1000px 480px;
     }
     h1{
-       top: 3%;
+       top: 4%;
        font-size: 37px;
     }
     p {
         font-size: 17px;
-        margin-top: 0.40rem;
+        margin-top: 0.38rem;
         display: flex;
         margin-right: 29px;
         margin-left:29px;
@@ -328,7 +328,7 @@ p {
 /* Laptop */
 @media only screen and (min-width: 768px) and (max-device-width: 1440px) {
     h1 {
-        font-size: 0.3rem;
+        font-size: 0.2rem;
         margin-top: 20px;
     }
     body{
@@ -336,7 +336,7 @@ p {
     }
 
     p{
-        margin-top: 0.50rem;
+        margin-top: 0.51rem;
         margin-left: 6px;
         margin-right: 6px;
         font-size: 22px;

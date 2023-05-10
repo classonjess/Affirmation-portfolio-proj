@@ -179,6 +179,7 @@ p {
     box-shadow: 0px 0px;
   }
 
+
 /* s mobile */
 @media only screen and (max-width: 320px){
     body{
@@ -213,18 +214,18 @@ p {
         top: 84%;
     }
     #dayA{
-        font-size: 13px;
+        font-size: 12px;
         top: 53%;
-        width: auto;
+        width: 1.2rem;
      }
      #heal{
-        font-size: 13px;
+        font-size: 12px;
         top: 74%;
         width: 1.2rem;
      }
      #selfl{
-        font-size: 13px;
-        top: 93%;
+        font-size: 12px;
+        top: 92%;
         width: 1.2rem;
      }
 }
@@ -265,17 +266,17 @@ p {
     #dayA{
         font-size: 12px;
         top: 53%;
-        width: auto;
+        width: 1.2rem;
      }
      #heal{
         font-size: 12px;
         top: 74%;
-        width: auto;
+        width: 1.2rem;
      }
      #selfl{
         font-size: 12px;
-        top: 93%;
-        width: auto;
+        top: 92%;
+        width: 1.2rem;
      }
 }
 /*Iphone 13 pro */
@@ -312,7 +313,7 @@ p {
     }
     #dayA{
         font-size: 12px;
-        top: 52%;
+        top: 51%;
         width: 1.2rem;
      }
      #heal{
@@ -322,171 +323,58 @@ p {
      }
      #selfl{
         font-size: 12px;
-        top: 91%;
+        top: 90%;
         width: 1.2rem;
      }
 }
-
-/* Tablet */
-@media (min-width: 400px) and (max-width: 768px) {
-  
-    h1 {
-        font-size: 0.2rem;
-        margin-top: 11px;
-    }
-    body{
-        background-size: 2000px 460px;
-       
-    }
-
-    p{
-        margin-top: 0.40rem;
-        margin-left: 6px;
-        margin-right: 6px;
-        font-size: 17px;
-        width: 100%;
-       
-    }
-    #btn {
-       width: 0.8rem;
-       font-size: 17px;
-       top: 35%;
-   }
-
-   #btn1 {
-      width: 0.8rem;
-      font-size: 17px;
-      top: 57%;
- }
-
-   #btn2 {
-      width: 0.85rem;
-      font-size: 17px;
-      top: 79%;
- }
-
-   #dayA{
-    font-size: 15px;
-    top: 46%;
- }
-
-   #heal{
-    font-size: 15px;
-    top: 68%;
- }
-
-   #selfl{
-    font-size: 15px;
-    top: 89%;
- }
-}
-
-
 /* Laptop */
-@media only screen and (min-width: 900px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-device-width: 1440px) {
     h1 {
         font-size: 0.2rem;
-        margin-top: 11px;
-    }
-    body{
-        background-size: 2000px 760px;
-       
-    }
-
-    p{
-        margin-top: 0.40rem;
-        margin-left: 6px;
-        margin-right: 6px;
-        font-size: 17px;
-        width: 100%;
-       
-    }
-    #btn {
-       width: 0.8rem;
-       font-size: 17px;
-       top: 35%;
-   }
-
-   #btn1 {
-      width: 0.8rem;
-      font-size: 17px;
-      top: 57%;
- }
-
-   #btn2 {
-      width: 0.85rem;
-      font-size: 17px;
-      top: 79%;
- }
-
-   #dayA{
-    font-size: 15px;
-    top: 46%;
- }
-
-   #heal{
-    font-size: 15px;
-    top: 68%;
- }
-
-   #selfl{
-    font-size: 15px;
-    top: 89%;
- }
-}
-
-@media (min-width: 1100px) and (max-width: 1440px) {
-  
-    h1 {
-        font-size: 0.2rem;
-        margin-top: 11px;
+        margin-top: 20px;
     }
     body{
         background-size: 2000px 550px;
-       
     }
 
     p{
         margin-top: 0.40rem;
         margin-left: 6px;
         margin-right: 6px;
-        font-size: 17px;
+        font-size: 16px;
         width: 100%;
        
     }
     #btn {
        width: 0.8rem;
        font-size: 17px;
-       top: 35%;
+       top: 38%;
    }
 
    #btn1 {
       width: 0.8rem;
       font-size: 17px;
-      top: 57%;
+      top: 60%;
  }
 
    #btn2 {
       width: 0.85rem;
       font-size: 17px;
-      top: 79%;
+      top: 82%;
  }
 
    #dayA{
-    font-size: 15px;
-    top: 46%;
+    font-size: 14px;
+    top: 49%;
  }
 
    #heal{
-    font-size: 15px;
-    top: 68%;
+    font-size: 14px;
+    top: 71%;
  }
 
    #selfl{
-    font-size: 15px;
-    top: 89%;
+    font-size: 14px;
+    top: 92%;
  }
 }
-    
-
-

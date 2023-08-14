@@ -334,11 +334,11 @@ p {
     }
 
     p{
-        margin-top: 43px;
+        margin-top: 40px;
         font-size:11px;
-        position: relative;
-        padding-left: 110px;
-        padding-right: 110px;
+        position: absolute;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
     h1{
@@ -347,21 +347,20 @@ p {
     }
 
     button#btn{
-        margin-top: 50px;
-        height: 1px;
-        width:150px;
-        font-size: 10px;
-        padding-top:10px;
-        position: relative;
-    }
-
-    button#btn1{
-        position: relative;
         margin-top: 0px;
         height: 1px;
         width:150px;
         font-size: 10px;
-        padding-top:10px
+        padding-top:10px;
+       
+    }
+
+    button#btn1{
+        height: 1px;
+        width:150px;
+        font-size: 10px;
+        padding-top: 10px;
+        margin-top: 00px;
     }
 
     p#dayA{
@@ -369,10 +368,9 @@ p {
     }
 
     button#btn2{
-        position: relative;
-        margin-top: 33px;
+        margin-top: 0px;
         height: 1px;
-        width:150px;
+        width:160px;
         font-size: 10px;
         padding-top:10px
     }
@@ -381,7 +379,7 @@ p {
         font-size: 10px;
         padding-left: 0px;
         padding-right: 0px;
-    }
+    }  
 
     #heal{
         font-size: 10px;
@@ -399,21 +397,21 @@ p {
 
     p#dayA{
         font-size: 11px;
-        padding-bottom: 15px;
-        padding-top:30px;
-        position: absolute;
+        padding-bottom: 5px;
+        padding-top:0px;
+        margin-top: 0px;
     }
 
     p#heal{
         font-size: 11px;
-        padding-top:30px;
+        padding-top:0px;
         position: absolute;
     }
 
     p#selfl{
         font-size: 11px;
         padding-top:10px;
-        padding-top:30px;
+        padding-top:20px;
         position: absolute;
     }
 

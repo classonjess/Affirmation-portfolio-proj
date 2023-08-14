@@ -418,6 +418,97 @@ p {
    
 }
 
+/* iPad Pro */
+@media only screen and  (min-width:609px) and (max-width: 768px) and (orientation: portrait){
+    body{
+        background-size: contain;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    p{
+        font-size: 23px;
+        margin-top: 140px;
+       
+    }
+
+    button#btn{
+        width: 240px;
+        font-size: 20px;
+    }
+
+    p#dayA{
+        font-size: 19px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    button#btn1{
+        width: 240px;
+        font-size: 19px;
+    }
+
+    p#heal{
+        font-size: 20px;
+        color:#000000
+    }
+
+    button#btn2{
+        width: 240px;
+        font-size: 20px;
+    }
+
+    p#selfl{
+        font-size: 19px;
+    }
+
+   
+}
+
+@media only screen and  (min-width: 769px) and (max-width: 1024px)and (orientation: landscape){
+
+    body{
+        background-size: contain;
+    }
+    h1{
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 18px;
+        margin-top: 110px;
+    }
+
+    button#btn{
+        width: 190px;
+        font-size: 15px;
+    }
+
+    p#dayA{
+        font-size: 15px;
+    }
+
+    button#btn1{
+        width: 190px;
+        font-size: 15px;
+    }
+
+    p#heal{
+        font-size: 15px;
+    }
+
+    button#btn2{
+        width: 190px;
+        font-size: 15px;
+    }
+
+    p#selfl{
+        font-size: 15px;
+    }
+
+}
 
 /* Laptop */
 @media only screen and (min-width: 768px) and (max-device-width: 1440px) {

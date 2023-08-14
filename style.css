@@ -334,8 +334,9 @@ p {
     }
 
     p{
-        margin-top: 33px;
+        margin-top: 43px;
         font-size:10px;
+        position: relative;
     }
 
     h1{
@@ -344,14 +345,17 @@ p {
     }
 
     button#btn{
-        padding-top: 00px;
+        margin-top: 50px;
         height: 1px;
         width:150px;
         font-size: 10px;
-        padding-top:10px
+        padding-top:10px;
+        position: relative;
     }
 
     button#btn1{
+        position: relative;
+        margin-top: 10px;
         height: 1px;
         width:150px;
         font-size: 10px;
@@ -359,6 +363,8 @@ p {
     }
 
     button#btn2{
+        position: relative;
+        margin-top: 40px;
         height: 1px;
         width:150px;
         font-size: 10px;

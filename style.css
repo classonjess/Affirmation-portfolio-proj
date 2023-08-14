@@ -325,6 +325,70 @@ p {
         width: 1.2rem;
      }
 }
+
+/* landscape iphone */
+@media only screen and (max-width: 765px) and (orientation: landscape){
+
+    body{
+        background-size: contain;
+    }
+
+    p{
+        margin-top: 33px;
+        font-size:10px;
+    }
+
+    h1{
+        font-size:20px;
+        margin-top:5px;
+    }
+
+    button#btn{
+        padding-top: 00px;
+        height: 1px;
+        width:150px;
+        font-size: 10px;
+        padding-top:10px
+    }
+
+    button#btn1{
+        height: 1px;
+        width:150px;
+        font-size: 10px;
+        padding-top:10px
+    }
+
+    button#btn2{
+        height: 1px;
+        width:150px;
+        font-size: 10px;
+        padding-top:10px
+    }
+
+    #dayA{
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #heal{
+        font-size: 10px;
+        color:#e0e0e0;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #selfl{
+        font-size: 10px;
+        color:#e0e0e0;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+   
+}
+
+
 /* Laptop */
 @media only screen and (min-width: 768px) and (max-device-width: 1440px) {
     h1 {

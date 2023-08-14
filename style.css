@@ -335,8 +335,10 @@ p {
 
     p{
         margin-top: 43px;
-        font-size:10px;
+        font-size:11px;
         position: relative;
+        padding-left: 110px;
+        padding-right: 110px;
     }
 
     h1{
@@ -355,16 +357,20 @@ p {
 
     button#btn1{
         position: relative;
-        margin-top: 10px;
+        margin-top: 0px;
         height: 1px;
         width:150px;
         font-size: 10px;
         padding-top:10px
     }
 
+    p#dayA{
+        color:#e0e0e0
+    }
+
     button#btn2{
         position: relative;
-        margin-top: 40px;
+        margin-top: 33px;
         height: 1px;
         width:150px;
         font-size: 10px;
@@ -389,6 +395,23 @@ p {
         color:#e0e0e0;
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    p#dayA{
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+
+    p#heal{
+        font-size: 12px;
+        padding-left: 0px;
+
+        text-align: center;
+    }
+
+    p#selfl{
+        font-size: 12px;
+        padding-top:10px;
     }
 
    
